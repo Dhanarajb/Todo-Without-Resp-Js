@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin-left: 40%;
+        background-color: bisque;
+      }
+      .to-do {
+        border: 1px solid grey;
+        width: 43%;
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: oblique;
+      }
+      #btn {
+        height: 25px;
+        border-radius: 15px;
+        background-color: rgb(92, 92, 195);
+      }
+      #inp {
+        height: 15px;
+        width: 200px;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 20px;
+        background: linear-gradient(pink, wheat);
+      }
+      main {
+        box-shadow: 5px 5px 5px 5px grey;
+        padding: 20px;
+        margin-top: 50px;
+        border-radius: 20px;
+        margin-right: 500px;
+        background: linear-gradient(#CCF849,#49CCF8);
+      }
+      h1{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Todo List</h1>
+      <div class="container">
+        <input type="text" id="inp" /><button id="btn">➕</button>
+        <div class="to-do" id="todo"></div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
